@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:textColor="#000"
+        android:background="#F00"
+        android:text="RED"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:textColor="#000"
+        android:layout_alignParentRight="true"
+        android:background="#FFFF33"
+        android:gravity="center"
+        android:text="YELLOW"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FF6600"
+        android:textColor="#000"
+        android:gravity="center"
+        android:text="ORANGE"
+        android:padding="25dp"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/textView5"
+        android:padding="25dp"
+        android:textColor="#000"
+        android:background="#0f0"
+        android:gravity="center"
+        android:text="GREEN"
+        android:layout_centerVertical="true"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:layout_centerInParent="true"
+        android:padding="25dp"
+        android:layout_margin="10dp"
+        android:background="#003399"
+        android:gravity="center"
+        android:text="BLUE"
+        android:id="@+id/textView5" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_toRightOf="@+id/textView5"
+        android:padding="25dp"
+        android:background="#4b0082"
+        android:gravity="center"
+        android:text="INDIGO"
+        android:layout_centerVertical="true"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text = "VIOLET"
+        android:background="#EE82EE"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        android:padding="25dp"
+        android:textColor="#000"
+
+
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:stretchColumns = "*"
+    >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_height="40dp"
+            android:gravity="left"
+            android:textSize="30dp"
+            android:text="Open..." />
+        <TextView
+            android:layout_height="40dp"
+            android:gravity="right"
+            android:text="ctrl-o"
+            android:textSize="30dp" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_height="40dp"
+            android:gravity="left"
+            android:textSize="30dp"
+            android:text="Save..." />
+        <TextView
+            android:layout_height="40dp"
+            android:gravity="right"
+            android:textSize="30dp"
+            android:text="ctrl-s" />
+
+            />
+    </TableRow>
+    <TableRow>
+         <TextView
+             android:layout_height="40dp"
+             android:gravity="left"
+             android:textSize="30dp"
+             android:text="Save As..." />
+             />
+
+        <TextView
+            android:layout_height="40dp"
+            android:gravity="right"
+            android:text="Ctrl-Shift-s"
+            android:textSize="30dp" />
+        />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="40dp"
+            android:gravity="left"
+            android:text="Import..."
+            android:textSize="30dp" />
+
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="40dp"
+            android:gravity="left"
+            android:text="Export..."
+            android:textSize="30dp" />
+            />
+        <TextView
+            android:layout_height="40dp"
+            android:gravity="right"
+            android:text="Ctrl-E"
+            android:textSize="30dp" />
+           />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_height="40dp"
+            android:gravity="left"
+
+            android:text="Quit"
+            android:textSize="30dp" />
+
+             />
+
+    </TableRow>
+
+
+</TableLayout>
